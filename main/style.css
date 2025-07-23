@@ -1,0 +1,51 @@
+
+body {
+    
+    background: linear-gradient(to right, #f4edad, #ebabe5, #b682ff);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    justify-content: center;
+    
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.3); /* optional see-through background */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+input, select, button{
+
+     margin: 8px 0; 
+    font-size: 16px;
+}
+
+
+button:hover {
+    background-color: #a269f9;
+}
+
+
+.logout-button {
+ 
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
